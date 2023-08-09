@@ -34,15 +34,13 @@ nav ul {
     justify-content: space-between;
     list-style: none;
     width: 916px;
-    border: red dashed 1px;
-
 }
 
 nav ul li a,
 .content-list ul li a {
     font-size: 24px;
     font-family: PalanquinDark-Regular;
-    color: black;
+    color: #17191A;
     text-decoration: none;
 }
 
@@ -60,14 +58,13 @@ footer {
 .project-info,
 .about-info {
     height: 600px;
-    border: red dashed 1px;
     margin: 0 auto;
-
+    background-color: snow;
 }
 
 footer {
     height: 300px;
-    border: red dashed 1px;
+    /* border: red dashed 1px; */
     margin: 0 auto;
 }
 
@@ -85,19 +82,18 @@ footer {
     align-items: center;
     font-family: Bungee-Regular;
     font-size: 64px;
+    color: #17191A;
     /* border: hwb(128 0% 0%) dashed 1px; */
 }
 
-
-
 .home-title h1 {
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .about-title h1,
 .project-title h1,
 .contact-title h1 {
-    margin-top: 58px;
+    padding-top: 58px;
 }
 
 .about-content {
@@ -110,6 +106,13 @@ footer {
     margin-left: 30rem;
 }
 
+.about-content p,
+.gmail a {
+    font-family: PalanquinDark-Regular;
+    font-size: 16px;
+    color: #17191A;
+}
+
 .about-img img {
     border-radius: 50%;
     width: 246px;
@@ -117,15 +120,24 @@ footer {
     margin-top: -1.7rem;
 }
 
-
-
-.content-list ul {
-    border: red dashed 1px;
-    display: flex;
-    justify-content: space-between;
-    width: 916px;
+.content-list a {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
+.content-list a img {
+    width: 60px;
+}
+
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail a {
+    text-decoration: none;
+}
 
 
 

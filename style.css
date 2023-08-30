@@ -120,6 +120,36 @@ footer {
     margin-top: -1.7rem;
 }
 
+.project-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: red dashed 1px; */
+    margin-top: 5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+.project-item a img {
+    /* border: red dashed 1px; */
+    width: 150px;
+}
+
+.project-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 22rem;
+    margin-right: 22rem;
+
+}
+
+.project-text h2 {
+    /* margin-left: 8rem;
+    margin-right: 8rem; */
+}
+
 .content-list a {
     margin-left: 2rem;
     margin-right: 2rem;

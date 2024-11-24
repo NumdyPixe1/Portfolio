@@ -65,10 +65,16 @@ top: 80px;
 
 }
 
+div.card{
+  margin-bottom: 20px;
+}
 div.card-deck{
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   top: 20px;
+  flex-direction: row;
+  padding: 0 200px;
    
 }   
 
@@ -81,6 +87,7 @@ div.content{
   padding: auto;
   margin: 50px 10px;
 }
+/* --------------------------------------------------------- */
 
 @media (max-width: 768px) { 
   div.social{ text-align: center;
@@ -106,13 +113,15 @@ div.content{
   div.content-1-project{ 
       margin-left: auto;width: fit-content;
   }
+div.title-project{
+  text-align: center;
+  margin-left: 0px;
 
+}
   div.card-deck{
       display: block;
       top: 20px; 
-      }   
+      padding: 0px;
 
- 
+      }      
 }     
-
-/* 1285px */

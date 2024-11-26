@@ -88,9 +88,15 @@ top: 80px;
 
 }
 
+
+div.card-img-top{
+  height: 25rem;
+}
 div.card{
   margin-bottom: 20px;
+  height: 25rem;
 }
+ 
 div.card-deck{
   display: flex;
   flex-wrap: wrap;

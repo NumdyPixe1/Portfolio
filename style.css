@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Bungee-Regular;
     src: url(/Font/Bungee-Regular.ttf);
 
@@ -7,8 +7,25 @@
 @font-face {
     font-family: PalanquinDark-Regular;
     src: url(/Font/PalanquinDark-Regular.ttf);
+} */
+
+ /*Font*/
+.palanquin-dark-regular {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
 }
- 
+
+.palanquin-dark-bold {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+.bungee-regular {
+  font-family: "Bungee", serif;
+  font-weight: 400;
+  font-style: normal;
+} 
 * {       
     padding: auto; margin:auto;
     box-sizing: border-box; 
@@ -30,15 +47,15 @@ div.content-title{
 }
 
 div.content-1-title,div.title-project{    
-  font-family: Bungee-Regular;
+  font-family: "Bungee", serif;
 }
 div.title-project{
 text-align: start;
 margin-left: 110px;
 }
 
-div.content-2-title,div.main-about{
-  font-family: PalanquinDark-Regular;
+div.content-2-title,div.main-about,li.nav-item{
+  font-family: "Palanquin Dark", sans-serif;
 }
 div.main-about{
   display: block;

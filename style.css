@@ -10,11 +10,14 @@
 }
  
 * {       
-        border: darkcyan;
-      padding: auto; margin:auto;
+    padding: auto; margin:auto;
     box-sizing: border-box; 
 }
-
+ 
+div.info-desc{
+  text-align: start;
+  margin: 0 30%;
+}
  div.main{
     align-items: center;
     display: flex;
@@ -57,9 +60,12 @@ left: 150px;
 img.social-img{
    height: 40px;
 }
+footer{
+ margin-bottom: 10%;
+}
 /* --------------------------------------------------------- */
 
-div.project-contatiner{
+div.project-contatiner,div.activities{
 position: relative;
 top: 80px;  
 
@@ -92,7 +98,13 @@ div.content{
 @media (max-width: 768px) { 
   div.social{ text-align: center;
       left: auto; top: 30px;}
-       
+    div.my-info,div.info-desc{
+      text-align: center;
+    }
+    div.info-desc{
+      margin: auto;
+
+    }
     div.content-title{
       right: auto;
       position: relative;
@@ -118,6 +130,10 @@ div.title-project{
   margin-left: 0px;
 
 }
+
+
+
+
   div.card-deck{
       display: block;
       top: 20px; 

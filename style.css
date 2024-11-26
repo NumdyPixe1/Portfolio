@@ -95,7 +95,8 @@ div.content{
 }
 /* --------------------------------------------------------- */
 
-@media (max-width: 768px) { 
+/*ความกว้าง 912px ลงไป*/
+@media (max-width: 912px) { 
   div.social{ text-align: center;
       left: auto; top: 30px;}
     div.my-info,div.info-desc{
@@ -128,11 +129,10 @@ div.content{
 div.title-project{
   text-align: center;
   margin-left: 0px;
-
 }
-
-
-
+img.active{
+  width: 100%;
+}
 
   div.card-deck{
       display: block;

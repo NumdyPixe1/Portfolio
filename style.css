@@ -118,15 +118,13 @@ div.content{
 }
 /* --------------------------------------------------------- */
 
-/*ความกว้าง 912px ลงไป*/
-@media (max-width: 912px) { 
+/*ความกว้าง 768px ลงไป*/
+@media (max-width: 768px) { 
   div.social{ text-align: center;
       left: auto; top: 30px;}
-    div.my-info,div.info-desc{
-      text-align: center;
-    }
+   
     div.info-desc{
-      margin: auto;
+      margin: 0 10%;
 
     }
     div.content-title{
